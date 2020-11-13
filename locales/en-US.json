@@ -1,0 +1,9 @@
+{
+    "app": {
+        "name": "Nuxt Starter"
+    },
+
+    "home": {
+        "title": "Welcome to the Nuxt + Vuetify"
+    }
+}

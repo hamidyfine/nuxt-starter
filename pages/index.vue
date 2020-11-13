@@ -2,7 +2,7 @@
     <v-container>
         <v-row justify="center" align="center">
             <v-col cols="8" class="text-center">
-                <h3 class="text-h3 mt-10">{{ `Welcome to the Nuxt + Vuetify` }}</h3>
+                <h3 class="text-h3 mt-10">{{ $t('home.title') }}</h3>
             </v-col>
         </v-row>
     </v-container>

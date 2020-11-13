@@ -55,6 +55,7 @@ export default {
         // https://go.nuxtjs.dev/content
         '@nuxt/content',
         '@nuxtjs/dotenv',
+        'nuxt-i18n',
     ],
 
     // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -84,6 +85,25 @@ export default {
 
     // Build Configuration (https://go.nuxtjs.dev/config-build)
     build: {},
+
+    i18n: {
+        locales: [
+            {
+                code: 'en',
+                iso: 'en-US',
+                name: 'English',
+                dir: 'ltr',
+            },
+        ],
+        defaultLocale: 'en',
+        noPrefixDefaultLocale: true,
+        vueI18n: {
+            fallbackLocale: 'en',
+            messages: {
+                en: require('./locales/en-US.json'),
+            },
+        },
+    },
 
     dotenv: {
         /* module options */
