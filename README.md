@@ -1,4 +1,4 @@
-# hyblog
+# NuxtJS Starter
 
 ## Build Setup
 
