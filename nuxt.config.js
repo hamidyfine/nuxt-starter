@@ -6,7 +6,7 @@ export default {
 
     // Global page headers (https://go.nuxtjs.dev/config-head)
     head: {
-        titleTemplate: '%s - NuxtJS Starter',
+        titleTemplate: '%s - NuxtJS Project',
         title: 'NuxtJS Starter',
         meta: [
             { charset: 'utf-8' },
@@ -34,7 +34,7 @@ export default {
     },
 
     // Global CSS (https://go.nuxtjs.dev/config-css)
-    css: [],
+    css: ['~/assets/scss/styles.scss'],
 
     // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
     plugins: [],
@@ -46,6 +46,7 @@ export default {
     buildModules: [
         // https://go.nuxtjs.dev/vuetify
         '@nuxtjs/vuetify',
+        '@nuxtjs/dotenv',
     ],
 
     // Modules (https://go.nuxtjs.dev/config-modules)
@@ -54,7 +55,6 @@ export default {
         '@nuxtjs/axios',
         // https://go.nuxtjs.dev/content
         '@nuxt/content',
-        '@nuxtjs/dotenv',
         'nuxt-i18n',
     ],
 
